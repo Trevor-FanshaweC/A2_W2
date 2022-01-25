@@ -28,10 +28,12 @@ body { font-size: 16px; }
   grid-gap: 20px;
 }
 
-.container { display: flex; }
+.container { display: flex; flex-direction: column; }
 
 /* descendant selector: every img element inside EVERY element with a class of container */
 .container img { width: 100%; }
+.container svg { width: 100%; flex: 1; }
+.container p { text-align: center; padding-top:10px; }
 
 /* interactive SVG rules */
 .cls-2:hover {

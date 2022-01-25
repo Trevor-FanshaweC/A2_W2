@@ -27,16 +27,18 @@
       <article class="container">
         <h2 class="hidden">graphic 1</h2>
         <img id="theJPG" src="images/badge.jpg" class="icon" alt="raster graphic">
+        <p>some text</p>
       </article>
 
       <article class="container">
         <h2 class="hidden">graphic 2</h2>
         <img id="theSVG" src="images/badge.svg" class="icon" alt="vector graphic">
+          <p>some text</p>
       </article>
 
       <!-- inline svg lives here -->
       <article class="container">
-        <h2 class="hidden">graphic 2</h2>
+        <h2 class="hidden">graphic 3</h2>
         <!-- inline svg -->
         <svg id="badge" class="icon" xmlns="http://www.w3.org/2000/svg" width="166.69" height="167.01" viewBox="0 0 166.69 167.01">
           <defs>
@@ -92,8 +94,13 @@
             <circle class="cls-6" cx="83.49" cy="83.36" r="74.9" transform="translate(-11.52 153.31) rotate(-81.32)"/>
           </g>
         </svg>
+        <p>inline svg</p>
+      </article>
+      <!-- end inline svg -->
 
-        <!-- end inline svg -->
+      <article class="container">
+        <h2 class="hidden">graphic 4</h2>
+        <object class="icon" data="images/badge.svg" type="image/svg+xml"></object>
       </article>
     </section>
     <!-- end icons section -->
